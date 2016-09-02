@@ -495,5 +495,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/simpleaosp" name="platform_vendor_simpleaosp" remote="SimpleAosp" revision="N"/>
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="SimpleAosp" revision="N" />
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="SimpleAosp" revision="N" />
 </manifest>
 
