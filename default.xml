@@ -47,6 +47,8 @@
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+  <project path="device/lge/mako" name="platform_device_lge_mako" groups="device,mako" remote="SimpleAosp" revision="N" />
+  <project path="device/lge/mako-kernel" name="zaclimon/android_kernel_google_msm" groups="device,mako" remote="github" revision="mako-nougat" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
