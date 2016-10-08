@@ -45,7 +45,7 @@
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/bullhead" name="platform_device_lge_bullhead" groups="device,bullhead" remote="SimpleAosp" revision="N" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
+  <project path="device/moto/shamu" name="platform_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="SimpleAosp" revision="N" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/lge/mako" name="platform_device_lge_mako" groups="device,mako" remote="SimpleAosp" revision="N" />
   <project path="device/lge/mako-kernel" name="platform_mako_kernel" groups="device,mako" remote="SimpleAosp" revision="N" />
@@ -497,5 +497,6 @@
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="SimpleAosp" revision="N" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="SimpleAosp" revision="N" />
   <project path="vendor" name="platform_vendor" remote="SimpleAosp" revision="N" />
+  <project path="vendor/moto" name="proprietary_vendor_moto" remote="SimpleAosp" revision="N" />
 </manifest>
 
