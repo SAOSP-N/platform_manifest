@@ -1,5 +1,5 @@
 ##Initialize the source##
-repo init -u https://github.com/SAOSP-N/platform_manifest.git -b N
+repo init -u https://github.com/SAOSP-N/platform_manifest.git -b N1
 
 ##Sync the source##
 repo sync -jx -f (x being however many cpu jobs)
