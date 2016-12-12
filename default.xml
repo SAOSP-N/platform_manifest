@@ -24,7 +24,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="SimpleAosp" revision="N1" />
+  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="external/busybox" name="platform_external_busybox" remote="SimpleAosp" revision="N1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -343,14 +343,14 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="SimpleAosp" revision="N1" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="SimpleAosp" revision="N1" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="SimpleAosp" revision="N1" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="SimpleAosp" revision="N1" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -505,10 +505,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/simpleaosp" name="platform_vendor_simpleaosp" remote="SimpleAosp" revision="N1"/>
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="SimpleAosp" revision="N1" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="SimpleAosp" revision="N1" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="SimpleAosp" revision="N1" />
   <project path="vendor" name="platform_vendor" remote="SimpleAosp" revision="N1" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="SimpleAosp" revision="N1" />
-
 </manifest>
 
