@@ -50,8 +50,6 @@
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
   <project path="device/moto/shamu" name="platform_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="SimpleAosp" revision="N1" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
-  <project path="device/lge/mako" name="platform_device_lge_mako" groups="device,mako" remote="SimpleAosp" revision="N1" />
-  <project path="device/lge/mako-kernel" name="platform_mako_kernel" groups="device,mako" remote="SimpleAosp" revision="N1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -510,7 +508,6 @@
   <project path="vendor/prebuilt" name="platform_vendor_prebuilt" remote="SimpleAosp" revision="N1"/>
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="SimpleAosp" revision="N1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="SimpleAosp" revision="N1" />
-  <project path="vendor" name="platform_vendor" remote="SimpleAosp" revision="N1" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="SimpleAosp" revision="N1" />
   <project path="vendor/htc" name="platform_vendor_htc" remote="SimpleAosp" revision="N1" />
 
