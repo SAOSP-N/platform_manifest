@@ -41,7 +41,9 @@
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-  <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
+  <project path="device/google/contexthub" name="device/google/contexthub" groups="device" /> 
+  <project path="device/htc/flounder" name="platform_device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="SimpleAosp" revision="N1" />
+  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/huawei/angler" name="platform_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="SimpleAosp" revision="N1" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
   <project path="device/lge/bullhead" name="platform_device_lge_bullhead" groups="device,bullhead" remote="SimpleAosp" revision="N1" />
@@ -510,5 +512,7 @@
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="SimpleAosp" revision="N1" />
   <project path="vendor" name="platform_vendor" remote="SimpleAosp" revision="N1" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="SimpleAosp" revision="N1" />
+  <project path="vendor/htc" name="platform_vendor_htc" remote="SimpleAosp" revision="N1" />
+
 </manifest>
 
