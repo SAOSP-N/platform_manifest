@@ -506,8 +506,8 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/simpleaosp" name="platform_vendor_simpleaosp" remote="SimpleAosp" revision="N1"/>
   <project path="vendor/prebuilt" name="platform_vendor_prebuilt" remote="SimpleAosp" revision="N1"/>
-  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="SimpleAosp" revision="N1" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="SimpleAosp" revision="N1" />
+  <project path="vendor/huawei" name="DirtyUnicorns/android_vendor_huawei" remote="github" revision="n7x" />
+  <project path="vendor/lge" name="DirtyUnicorns/android_vendor_lge" remote="github" revision="n7x" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="SimpleAosp" revision="N1" />
   <project path="vendor/htc" name="platform_vendor_htc" remote="SimpleAosp" revision="N1" />
 
